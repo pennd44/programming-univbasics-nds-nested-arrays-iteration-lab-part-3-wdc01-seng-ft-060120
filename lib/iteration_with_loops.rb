@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while row < src.length do
     column = 0
     while column < src[row].length
-    
+      if src[row][column]
       column += 1 
     end
     row += 1 
